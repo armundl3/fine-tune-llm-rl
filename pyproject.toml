@@ -1,0 +1,18 @@
+[project]
+name = "fine-tune-llm-rl"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = "==3.13.7"
+dependencies = [
+    "accelerate==1.12.0",
+    "datasets==4.4.1",
+    "mlx-lm==0.28.3",
+    "peft==0.18.0",
+    "sentencepiece==0.2.1",
+    "torch==2.9.1",
+    "torchaudio==2.9.1",
+    "torchvision==0.24.1",
+    "transformers==4.57.3",
+    "trl==0.25.1",
+]
