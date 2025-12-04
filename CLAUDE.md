@@ -95,8 +95,50 @@ uv add package-name@latest    # Update to latest version
 
 - **setup.md**: Comprehensive setup documentation with both Makefile and manual instructions
 - **Makefile**: Automation for common tasks (preferred method)
+- **CHANGELOG.md**: Project history and change log (see Changelog Maintenance section)
 - **scripts/test_mps.py**: Verifies PyTorch MPS backend is working correctly
 - **pyproject.toml**: Python 3.13.7 requirement + pinned dependencies
+
+## Changelog Maintenance
+
+**REQUIRED**: All significant changes and git commits MUST be documented in `CHANGELOG.md`.
+
+### When to Update CHANGELOG.md
+- **Before every git commit**: Document what you're committing
+- After adding new features, scripts, or capabilities
+- After fixing bugs or issues
+- After making architectural changes
+- After updating dependencies or configurations
+
+### Changelog Format
+Use these categories in the `[Unreleased]` section:
+- **Added**: New features, files, or capabilities
+- **Changed**: Changes to existing functionality
+- **Deprecated**: Features that will be removed
+- **Removed**: Removed features or files
+- **Fixed**: Bug fixes
+- **Security**: Security-related changes
+
+### Example Workflow
+```bash
+# 1. Make your changes
+vim scripts/train_lora.py
+
+# 2. Update CHANGELOG.md FIRST
+vim CHANGELOG.md
+# Add entry under [Unreleased] -> ### Added
+# - scripts/train_lora.py: LoRA fine-tuning implementation
+
+# 3. Then commit
+git add scripts/train_lora.py CHANGELOG.md
+git commit -m "Add LoRA training script"
+```
+
+### Guidelines
+- Be specific: Include file names and component names
+- Be concise: One line per change is usually enough
+- Be consistent: Follow the existing format
+- Reference CHANGELOG.md: When implementing features, check the changelog to understand project history
 
 ## Development Workflow
 
@@ -105,6 +147,7 @@ uv add package-name@latest    # Update to latest version
 3. **Verify GPU**: Run `make verify-mps` to ensure MPS is working
 4. **Configure training**: Run `make configure-accelerate` before first training run
 5. **Training**: Place datasets in `data/`, models in `models/`, scripts in `scripts/`
+6. **Before committing**: Update `CHANGELOG.md` with your changes (see Changelog Maintenance)
 
 ## Training Architecture
 
