@@ -1,0 +1,145 @@
+patient_summary,eligibility_status
+"34-year-old patient has a stable medical condition, is pregnant, and has severe liver disease with no recent cancer history.","NOT_ELIGIBLE"
+"Here is a natural language summary of the patient: 
+
+The patient is 44 years old with a BMI of 24.4. They have type2 diabetes and are pregnant, while also having severe liver disease and recently been diagnosed with cancer.","NOT_ELIGIBLE"
+"The patient is a 68-year-old individual with type 2 diabetes and recently diagnosed with cancer. They are not pregnant or experiencing severe liver disease. Medication stability is currently maintained.","NOT_ELIGIBLE"
+"Here is a natural language summary of the patient:
+
+Patient is 51 years old with a BMI of 15.9, has type2 diabetes and hypertension, is not on stable medication, is pregnant, has severe liver disease, has recently been diagnosed with cancer, and has an allergy to their study drug.","NOT_ELIGIBLE"
+"The patient is a 57-year-old individual with a body mass index (BMI) of 20.8, experiencing migraines and an allergy to their current study medication.","NOT_ELIGIBLE"
+"The patient is a 31-year-old individual who has hypertension and high cholesterol. They have severe liver disease but are stable on their medication regimen and not pregnant or allergic to the study drug.","NOT_ELIGIBLE"
+"The patient is a 64-year-old individual with high cholesterol and hypertension. They are taking stable medication and do not have any other health concerns such as pregnancy, severe liver disease, recent cancer, or an allergy to the study drug.","ELIGIBLE"
+"The patient is a 43-year-old male with high cholesterol and type 2 diabetes. He has an unstable medication regimen and severe liver disease but no recent cancer or known allergies.","NOT_ELIGIBLE"
+"The patient is a 64-year-old individual with hypertension and severe liver disease. They are stable on their medication regimen, not currently pregnant, and have an allergy to the study drug. Their BMI is 23.0.","NOT_ELIGIBLE"
+"The patient is a 24-year-old woman who is pregnant and has a stable medical condition. Her current BMI is 21.4, with no reported allergies or severe liver disease. She does not have any history of cancer.","NOT_ELIGIBLE"
+"The patient is a 22-year-old female with type 2 diabetes, currently pregnant and experiencing severe liver disease, recent cancer, and an allergy to the study medication. Her BMI is 15.7, indicating underweight status.","NOT_ELIGIBLE"
+"The 39-year-old patient has high cholesterol and is currently unmedicated. They have severe liver disease, are not pregnant, but have a history of recent cancer and an allergy to their prescribed medication.","NOT_ELIGIBLE"
+"The patient is a 42-year-old woman who has hypertension and severe liver disease. She is currently pregnant, but her medication for these conditions remains stable. There is no indication of allergies to the study drugs or any history of cancer.","NOT_ELIGIBLE"
+"The patient is a 61-year-old individual with a BMI of 23.3 who has asthma and depression as underlying conditions. They are not currently taking stable medication and have no history of pregnancy. However, they do have severe liver disease and an allergy to their prescribed medication.","NOT_ELIGIBLE"
+"The patient is a 55-year-old individual who has high cholesterol and hypertension. They are stable on their current medication and do not have pregnancy or severe liver disease issues. However, they were recently diagnosed with cancer. There is no allergy to the study drug. Their BMI falls at 32.1.","NOT_ELIGIBLE"
+"The patient is a 40-year-old woman who has hypertension and is currently pregnant with severe liver disease. She does not have an allergy to her medication and her condition is stable.","NOT_ELIGIBLE"
+"The patient is a 16-year-old who has high cholesterol, severe liver disease, and recently developed cancer. They are not on stable medication and have an allergy to the prescribed treatment.","NOT_ELIGIBLE"
+"The patient is a 50-year-old individual with type 2 diabetes, severe liver disease, and recent cancer diagnosis. They are not pregnant or on stable medication.","NOT_ELIGIBLE"
+"Patient is 65-year-old with asthma, stable on medication, no pregnancy, severe liver disease, and an allergy to the study drug.","NOT_ELIGIBLE"
+"The patient is a 30-year-old woman who has hypertension and is currently pregnant. She also has severe liver disease but is taking stable medication for her other condition. However, she is allergic to the study drug used in the treatment plan.","NOT_ELIGIBLE"
+"Here is a natural language summary of the patient:
+
+The 53-year-old patient has arthritis and recently diagnosed with cancer. Their medication is unstable, and they are not pregnant or allergic to their prescribed medication.","NOT_ELIGIBLE"
+"The 18-year-old patient has a BMI of 33.7, is pregnant, and suffers from migraine and asthma. They have unstable medication and severe liver disease, but no recent cancer or allergy to the study drug.","NOT_ELIGIBLE"
+"The patient is a 56-year-old individual with type 2 diabetes and hypertension. Their current health status is stable, as they are not pregnant or experiencing severe liver disease or recent cancer. Additionally, there is no known allergy to the study medication. The patient's BMI is 20.8.","ELIGIBLE"
+"The patient is a 37-year-old woman with high cholesterol, hypertension, and severe liver disease. She is pregnant and has an allergy to her prescribed medication, but her treatment regimen is currently stable.","NOT_ELIGIBLE"
+"39-year-old patient is pregnant and has hypertension, high cholesterol, stable medication, and severe liver disease.","NOT_ELIGIBLE"
+"The patient is a 61-year-old individual with hypertension and type2 diabetes. They are taking stable medication and do not have any severe liver disease or pregnancy complications. However, they have been recently diagnosed with cancer and have an allergy to the study drug. Their BMI is 17.3.","NOT_ELIGIBLE"
+"The patient is a 52-year-old individual with a body mass index (BMI) of 21.9. They have severe liver disease but no other known medical conditions. The patient is not currently taking stable medication and is not pregnant or allergic to the study drug, nor do they have a history of recent cancer.","NOT_ELIGIBLE"
+"The patient is a 62-year-old individual with high cholesterol and a history of recent cancer. They are currently taking stable medication and do not have any other significant medical conditions, such as severe liver disease or pregnancy, nor an allergy to the study drug.","NOT_ELIGIBLE"
+"The patient is a 28-year-old individual with hypertension and severe liver disease. They have a BMI of 22.3 and are not currently pregnant or taking stable medication. However, they have recently been diagnosed with cancer and have an allergy to the study drug.","NOT_ELIGIBLE"
+"The 57-year-old patient has a BMI of 22.5 and is currently dealing with migraines, depression, severe liver disease, and a history of recent cancer, but no known allergies to their medication.","NOT_ELIGIBLE"
+"Here is a natural language summary of the patient: 
+
+At 32 years old, the patient has a body mass index (BMI) of 26.7. They have asthma and depression as underlying conditions, are on stable medication, pregnant, and also have severe liver disease and recent cancer history; additionally, they do not have an allergy to their prescribed study drug.","NOT_ELIGIBLE"
+"Patient is 32 years old with high cholesterol. Unstable on current medication and pregnant.","NOT_ELIGIBLE"
+"The 54-year-old patient has a BMI of 24.5 and is affected by high cholesterol and type 2 diabetes. They are currently taking stable medication but have severe liver disease.","NOT_ELIGIBLE"
+"The 44-year-old patient has a BMI of 32.0 and is living with hypertension and type 2 diabetes. They are taking stable medication and are currently pregnant.","NOT_ELIGIBLE"
+"The patient is a 58-year-old individual with hypertension and a history of recent cancer. Their BMI is 15.2. They are not currently taking stable medication due to an allergy to the prescribed drug, but they are not pregnant or suffering from severe liver disease.","NOT_ELIGIBLE"
+"The patient is a 70-year-old individual with no known allergies. They are under stable medication treatment and do not have severe liver disease or pregnancy-related complications. However, they were recently diagnosed with cancer. Their BMI falls within the normal range at 21.4.","NOT_ELIGIBLE"
+"The 18-year-old patient has high cholesterol and is allergic to their current treatment. They are not currently taking unstable medication and do not have any other serious health conditions.","NOT_ELIGIBLE"
+"The patient is a 56-year-old individual with asthma and stable medication. They are not pregnant, do not have severe liver disease or recent cancer, and there is no known allergy to the study medication.","NOT_ELIGIBLE"
+"The patient is a 56-year-old male with hypertension and unstable medication. He is not pregnant or suffering from severe liver disease, recent cancer, or an allergy to the study drug.","NOT_ELIGIBLE"
+"The patient is a 29-year-old woman with type 2 diabetes and high cholesterol. She has stable medication, is pregnant, and suffers from severe liver disease and recent cancer, but does not have an allergy to the study drug. Her BMI is 17.4.","NOT_ELIGIBLE"
+"The patient is a 40-year-old individual with type 2 diabetes and hypertension. They are currently taking stable medication and do not have any other health concerns such as pregnancy, severe liver disease, recent cancer, or allergies.","ELIGIBLE"
+"The patient is a 50-year-old individual with high cholesterol, experiencing severe liver disease. They are stable on their current medication and do not have any other conditions such as pregnancy or allergies that may affect treatment.","NOT_ELIGIBLE"
+"The patient is a 26-year-old individual with type 2 diabetes, severe liver disease, and allergies. They are currently stable on their medication and not pregnant or recently diagnosed with cancer.","NOT_ELIGIBLE"
+"The patient is a 51-year-old individual who has hypertension and recently diagnosed with cancer. They are allergic to their prescribed medication and have an unstable treatment plan.","NOT_ELIGIBLE"
+"The patient is a 27-year-old female with type 2 diabetes and an allergy to her current medication. She is pregnant and has not experienced any severe liver issues or recent cancer cases.","NOT_ELIGIBLE"
+"Patient is a 52-year-old with asthma, severe liver disease, and recent cancer. Medication is unstable due to an allergy to the study drug.","NOT_ELIGIBLE"
+"The patient is a 60-year-old individual with a BMI of 30.4 and no recorded medical conditions. They are not currently taking stable medication, are not pregnant, do not have severe liver disease or recent cancer, but have an allergy to their prescribed study drug.","NOT_ELIGIBLE"
+"Here is a natural language summary of the patient: 
+
+The patient is 33 years old with a BMI of 26.9, suffering from high cholesterol and type 2 diabetes, while being stable on their medication and pregnant.","NOT_ELIGIBLE"
+"The patient is a 63-year-old individual with an obesity level of 18.3, no known allergies, and stable medication regimen. They have severe liver disease and a history of cancer, but are not pregnant.","NOT_ELIGIBLE"
+"The 38-year-old patient has a BMI of 15.0 and is affected by hypertension and severe liver disease, with unstable medication, not pregnant, and no recent cancer or allergy to the study drug.","NOT_ELIGIBLE"
+"Here is a natural language summary of the patient:
+
+The patient is 45 years old with a BMI of 33.2, has type 2 diabetes and recent cancer, is stable on their medication, not pregnant or experiencing severe liver disease, but has an allergy to their current study drug.","NOT_ELIGIBLE"
+"Here is a natural language summary of the patient:
+
+The patient is 38 years old with an BMI of 31.2 and has hypertension as a medical condition. They are stable on their medication but have severe liver disease.","NOT_ELIGIBLE"
+"The patient is a 50-year-old individual with high cholesterol, severe liver disease, and an allergy to their current medication. They are not pregnant. Their Body Mass Index (BMI) is 30.8.","NOT_ELIGIBLE"
+"Here is a natural language summary of the patient: 
+The patient is 52 years old, with a BMI of 22.0, and has type2 diabetes. The patient's medications are stable, and they are not pregnant or experiencing severe liver disease, nor have they recently been diagnosed with cancer or an allergy to their study drug.","ELIGIBLE"
+"Here is a natural language summary of the patient: 
+
+The patient is 58 years old with a BMI of 27.9. They have type2 diabetes as a condition and their medication is stable. There are no reports of pregnancy, severe liver disease, recent cancer, or allergy to study drug.","ELIGIBLE"
+"Here is a natural language summary of the patient: 
+
+The patient is a 48-year-old individual with high cholesterol and type 2 diabetes. They are currently taking stable medication, not pregnant or having severe liver disease, and do not have an allergy to their prescribed medication.","ELIGIBLE"
+"The 26-year-old patient has type2 diabetes and is stable on their current medication. They are not pregnant, have no severe liver disease or recent cancer, and do not have an allergy to the study drug.","ELIGIBLE"
+"The patient is a 39-year-old individual with high cholesterol and hypertension. They are taking stable medication and have no pregnancy or severe liver disease concerns. Additionally, there is no record of recent cancer diagnosis or allergy to the study drug.","ELIGIBLE"
+"Patient is 63 years old with a BMI of 24.3, has type2 diabetes and is on stable medication, is not pregnant or allergic to the study drug, and does not have severe liver disease or recent cancer.","ELIGIBLE"
+"The patient is a 54-year-old male with high cholesterol, but their medication regimen is stable. They are not pregnant or experiencing severe liver disease or recent cancer, and do not have an allergy to the study medication.","ELIGIBLE"
+"The patient is a 60-year-old individual with high cholesterol and type 2 diabetes. They are taking stable medication and do not have severe liver disease or recent cancer. There are no known allergies to the study medication.","ELIGIBLE"
+"Here is a natural language summary of the patient: 
+
+The patient is 53 years old with an BMI of 19.4, suffering from hypertension and type2 diabetes, who is on stable medication but has no severe liver disease or recent cancer, and is not allergic to their prescribed study drug.","ELIGIBLE"
+"Here is a natural language summary of the patient: 
+
+56-year-old patient with type 2 diabetes and stable medication.","ELIGIBLE"
+"Here is a natural language summary of the patient: 
+
+A 60-year-old patient with type 2 diabetes is currently stable on medication and has no reported allergies or severe medical conditions.","ELIGIBLE"
+"Patient is a 58-year-old male with hypertension and high cholesterol. He has stable medication and is not pregnant or experiencing severe liver disease.","ELIGIBLE"
+"The patient is a 48-year-old individual with type 2 diabetes and is currently taking stable medication, has no reported severe liver disease or recent cancer, and does not have an allergy to the study drug.","ELIGIBLE"
+"The patient is a 54-year-old individual with type 2 diabetes and high cholesterol. They are currently taking stable medication, are not pregnant or experiencing severe liver disease, and do not have any allergies to study drugs.","ELIGIBLE"
+"The patient is a 54-year-old individual with high cholesterol. They are currently stable on their medication and do not have any other serious health concerns, including pregnancy, severe liver disease, recent cancer, or an allergy to the prescribed study drug.","ELIGIBLE"
+"The patient is a 46-year-old individual with a BMI of 24.9 and hypertension. They are currently taking stable medication for their condition, and do not have any pregnancy, severe liver disease, recent cancer, or allergies affecting treatment.","ELIGIBLE"
+"The 46-year-old patient has a BMI of 19.9 and is managed for hypertension. They are up-to-date on their stable medications and do not have any severe liver disease, recent cancer, or allergy to the prescribed medication.","ELIGIBLE"
+"19-year-old patient has type 2 diabetes and hypertension, is on stable medication, and does not have severe liver disease or a pregnancy, with no reported allergies.","ELIGIBLE"
+"The patient is a 58-year-old individual with hypertension. They are on stable medication and do not have pregnancy, severe liver disease, or recent cancer, but there is no indication of an allergy to their prescribed medication.","ELIGIBLE"
+"The patient is a 58-year-old individual with high cholesterol and type 2 diabetes. Their medication regimen is stable, and they are not pregnant or experiencing severe liver disease or recent cancer. Additionally, there is no reported allergy to the study drug.","ELIGIBLE"
+"The patient is a 52-year-old individual who has high cholesterol and type 2 diabetes. They are taking stable medication for their conditions and have no active allergies or severe health issues.","ELIGIBLE"
+"The patient is a 61-year-old individual with hypertension and stable medication. They are not pregnant or experiencing severe liver disease or recent cancer, and do not have an allergy to the study drug.","ELIGIBLE"
+"Here is a natural language summary of the patient: 
+
+Patient is 62 years old with high cholesterol and type 2 diabetes, stable on medication but not pregnant or allergic to any medications.","ELIGIBLE"
+"The patient is a 31-year-old individual with high cholesterol and type 2 diabetes. They are currently taking stable medication for their conditions and do not have any allergies or underlying health issues such as severe liver disease, recent cancer, or pregnancy.","ELIGIBLE"
+"The patient is a 48-year-old male with high cholesterol. He is taking stable medication and does not have any severe liver disease, pregnancy, recent cancer, or allergy to his prescribed medication.","ELIGIBLE"
+"The patient is a 29-year-old individual with type2 diabetes. They are medication-stable and do not have any other significant health conditions, pregnancy, severe liver disease, or allergies.","ELIGIBLE"
+"The patient is a 53-year-old individual with high cholesterol, stable on medication. They are not pregnant or experiencing severe liver disease or recent cancer, and do not have an allergy to the study drug.","ELIGIBLE"
+"The patient is a 56-year-old individual with a BMI of 20.3, who has type 2 diabetes and hypertension, is not currently pregnant or experiencing severe liver disease, does not have a history of recent cancer, and is not allergic to the study medication.","ELIGIBLE"
+"The patient is a 55-year-old individual with type 2 diabetes and stable medication. They are not pregnant or allergic to their prescribed medication.","ELIGIBLE"
+"The patient is a 57-year-old individual with type 2 diabetes and is currently stable on their medication.","ELIGIBLE"
+"The 57-year-old patient has type 2 diabetes and high cholesterol. They are taking stable medication and do not have pregnancy or severe liver disease concerns, nor any history of recent cancer or allergies related to the study drug.","ELIGIBLE"
+"Here is a natural language summary of the patient: 
+
+59-year-old male with hypertension and high cholesterol, taking stable medication, non-pregnant and without liver disease or other medical conditions.","ELIGIBLE"
+"Here is a natural language summary of the patient: 
+
+62-year-old patient with hypertension and type 2 diabetes, stable on medication, no pregnancy or severe liver disease, and no known allergies.","ELIGIBLE"
+"The patient is a 36-year-old individual with high cholesterol and stable medication. They are not pregnant, have no severe liver disease or recent cancer history, and do not have an allergy to their prescribed medication.","ELIGIBLE"
+"Here is a natural language summary of the patient: 
+
+The patient is 38 years old with a BMI of 21.5 and has hypertension as their primary condition. They are stable on their current medications and do not have any other significant health concerns, such as pregnancy or severe liver disease, recent cancer, or allergies to study drugs.","ELIGIBLE"
+"Here is a natural language summary of the patient: 
+
+59-year-old male with type 2 diabetes and hypertension, stable on medication, not pregnant or allergic to his current treatment.","ELIGIBLE"
+"Here is a natural language summary of the patient: 
+
+The patient is 24 years old and has a BMI of 21.4. They have type2 diabetes and high cholesterol, but their current medications are stable. They are not pregnant or allergic to any drugs.","ELIGIBLE"
+"Patient is 36 years old with a BMI of 20.5, has type2 diabetes, and is stable on medication, without other complications such as pregnancy or liver issues, nor any history of cancer or allergic reactions.","ELIGIBLE"
+"Here is a natural language summary of the patient: 
+
+The 35-year-old patient has hypertension and is on stable medication. They are not pregnant or experiencing severe liver disease, recent cancer, or an allergy to their medication.","ELIGIBLE"
+"Here is a natural language summary of the patient: 
+The patient is 53 years old with type2 diabetes and is on stable medication. There are no signs of pregnancy, severe liver disease, or recent cancer, but it's unclear if they have an allergy to their current study medication.","ELIGIBLE"
+"Here is a natural language summary of the patient: 
+
+The 61-year-old patient has hypertension and high cholesterol. Their medication regimen is stable. They are not pregnant or suffering from severe liver disease or recent cancer, and do not have an allergy to their prescribed medication.","ELIGIBLE"
+"The patient is a 41-year-old individual with type 2 diabetes and stable medication.","ELIGIBLE"
+"Here is a natural language summary of the patient: 
+
+The patient is 57 years old with a BMI of 22.2 and has hypertension as their condition. They are on stable medication and have no known pregnancy, liver issues, cancer, or allergy to any drugs.","ELIGIBLE"
+"The 63-year-old patient has a stable medical profile, with no acute health concerns. They have hypertension as their primary condition and are not experiencing any other serious medical issues such as pregnancy or severe liver disease. Additionally, they do not have any known allergies to medication.","ELIGIBLE"
+"The patient is a 63-year-old individual with hypertension and high cholesterol. They are on stable medication and do not have any other significant medical conditions or allergies.","ELIGIBLE"
+"The patient is a 65-year-old male with type 2 diabetes and has stable medication.","ELIGIBLE"
+"The patient is a 49-year-old individual with hypertension as their primary condition. They are medication-stable and do not have any severe liver disease or recent cancer history. Their BMI is 28.4. There is no indication of pregnancy. Additionally, there is no reported allergy to the study drug.","ELIGIBLE"
